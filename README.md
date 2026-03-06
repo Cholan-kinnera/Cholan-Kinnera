@@ -4,11 +4,15 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&height=280&color=0:0f2027,50:203a43,100:2c5364&text=Cholan%20Kinnera&fontSize=50&fontAlignY=40&animation=fadeIn&fontColor=ffffff"/>
 </p>
 
+
+                          Python Developer | Backend Engineer | Cloud & AI Enthusiast
+                        
+                              
 <p align="center">
 <img src="https://readme-typing-svg.herokuapp.com?lines=Backend+Developer;Python+Engineer;Cloud+Computing+Learner;Artificial+Intelligence+Explorer&center=true&width=600&height=45">
 </p>
 
-Python Developer | Backend Engineer | Cloud & AI Enthusiast
+
 ---
 
 ## 👨‍💻 About Me
