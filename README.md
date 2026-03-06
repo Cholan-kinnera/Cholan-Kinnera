@@ -5,12 +5,14 @@
 </p>
 
 <p align="center">
-<img src="https://readme-typing-svg.herokuapp.com?lines=Backend+Developer;Python+Engineer;Cloud+Computing+Learner;Artificial+Intelligence+Explorer&center=true&width=600&height=45">
+<b>Python Developer | Backend Engineer | Cloud & AI Enthusiast</b>
 </p>
 
 <p align="center">
-<b>Python Developer | Backend Engineer | Cloud & AI Enthusiast</b>
+<img src="https://readme-typing-svg.herokuapp.com?lines=Backend+Developer;Python+Engineer;Cloud+Computing+Learner;Artificial+Intelligence+Explorer&center=true&width=600&height=45">
 </p>
+
+
 
 ---
 
