@@ -10,9 +10,9 @@
 
 ## 👨‍💻 About Me
 
-• Developer interested in **Backend Engineering and Cloud Computing**
+• Interested in **Backend Engineering and Cloud Computing**
 • Currently learning **Python, Flask, SQL, and AWS**
-• Building practical projects and improving problem-solving skills
+• Building backend APIs and practical developer projects
 
 ---
 
@@ -28,7 +28,7 @@
 
 ---
 
-### Backend Development
+### Backend
 
 ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge\&logo=flask)
 
@@ -54,25 +54,25 @@
 
 ---
 
-## 🚀 Projects
+## 🚀 Featured Project
 
 ### Flask User Management API
 
-A backend API built using **Flask** to manage users.
+A REST API built with **Flask** to manage users.
 
-Features:
+Features
 
 • User registration
 • REST API endpoints
 • Database integration
-• Tested using Postman
+• API testing with Postman
 
 ---
 
 ## 📊 GitHub Stats
 
 <p align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=YOURUSERNAME&show_icons=true&theme=radical"/>
+<img src="https://github-readme-stats.vercel.app/api?username=Cholan-Kinnera&show_icons=true&theme=radical"/>
 </p>
 
 ---
@@ -80,7 +80,7 @@ Features:
 ## 🔥 GitHub Streak
 
 <p align="center">
-<img src="https://streak-stats.demolab.com/?user=YOURUSERNAME&theme=radical"/>
+<img src="https://streak-stats.demolab.com/?user=Cholan-Kinnera&theme=radical"/>
 </p>
 
 ---
@@ -88,7 +88,7 @@ Features:
 ## 📈 Most Used Languages
 
 <p align="center">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOURUSERNAME&layout=compact&theme=radical"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Cholan-Kinnera&layout=compact&theme=radical"/>
 </p>
 
 ---
