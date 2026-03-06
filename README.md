@@ -88,7 +88,7 @@ Key Features
 # 📊 GitHub Stats
 
 <p align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=Cholan-kinnera&show_icons=true&theme=tokyonight"/>
+<img src="https://github-readme-stats.vercel.app/api?username=Cholan-Kinnera&show_icons=true&theme=tokyonight"/>
 </p>
 
 ---
@@ -104,7 +104,7 @@ Key Features
 # 📈 Most Used Languages
 
 <p align="center">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Cholan-kinnera&layout=compact&theme=tokyonight"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Cholan-Kinnera&layout=compact&theme=tokyonight"/>
 </p>
 
 ---
@@ -112,7 +112,7 @@ Key Features
 # 🐍 Contribution Snake
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/Cholan-kinnera/Cholan-kinnera/output/github-contribution-grid-snake.svg"/>
+<img src="https://raw.githubusercontent.com/Cholan-Kinnera/Cholan-Kinnera/output/github-contribution-grid-snake.svg"/>
 </p>
 
 ---
