@@ -1,7 +1,7 @@
 <!-- CLOUD + AI BANNER -->
 
 <p align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=200&section=header&text=Cholan%20Kinnera&fontSize=40&fontColor=ffffff"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,50:203A43,100:2C5364&height=220&section=header&text=Cholan%20Kinnera&fontSize=40&fontColor=ffffff&animation=fadeIn"/>
 </p>
 
 <h3 align="center">Python Developer | Backend Developer | Cloud & AI Enthusiast</h3>
@@ -18,16 +18,16 @@ I am a developer passionate about building **backend systems, APIs, and cloud-ba
 
 I enjoy understanding how software works behind the scenes and designing systems that are **structured, efficient, and scalable**.
 
-My main focus is on **backend development and cloud technologies**, where I work with tools like **Python, Flask, and SQL** to build REST APIs and data-driven applications.
+My primary focus is on **backend development and cloud technologies**, where I work with **Python, Flask, and SQL** to build REST APIs and data-driven applications.
 
-Currently, I am expanding my knowledge in:
+Currently expanding my knowledge in:
 
-• **Cloud Computing (AWS)**
-• **Artificial Intelligence tools**
-• **Backend Architecture**
-• **Database systems**
+• Cloud Computing (AWS)
+• Artificial Intelligence tools
+• Backend architecture
+• Database systems
 
-I believe strongly in **learning by building**, which is why I regularly create projects to improve my development workflow and practical knowledge.
+I believe strongly in **learning by building**, so I constantly create projects to improve my development workflow and technical skills.
 
 ---
 
@@ -43,28 +43,8 @@ I believe strongly in **learning by building**, which is why I regularly create 
 
 # 🛠 Tech Stack
 
-### Languages
-
-<p>
-<img src="https://skillicons.dev/icons?i=python,java,mysql"/>
-</p>
-
-### Backend
-
-<p>
-<img src="https://skillicons.dev/icons?i=flask"/>
-</p>
-
-### Cloud
-
-<p>
-<img src="https://skillicons.dev/icons?i=aws"/>
-</p>
-
-### Tools
-
-<p>
-<img src="https://skillicons.dev/icons?i=git,github,vscode,postman"/>
+<p align="center">
+<img src="https://skillicons.dev/icons?i=python,java,mysql,flask,aws,git,github,vscode,postman"/>
 </p>
 
 ---
@@ -73,14 +53,14 @@ I believe strongly in **learning by building**, which is why I regularly create 
 
 ## 🔐 Flask User Management API
 
-A backend API built using **Flask** to manage users and authentication.
+A backend API built with **Flask** to manage users and authentication.
 
 Key Features
 
 • User registration system
 • REST API endpoints
 • Database integration
-• API testing using Postman
+• API testing with Postman
 • Clean backend architecture
 
 ---
@@ -88,7 +68,7 @@ Key Features
 # 📊 GitHub Stats
 
 <p align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=Cholan-Kinnera&show_icons=true&theme=tokyonight"/>
+<img src="https://github-readme-stats.vercel.app/api?username=Cholan-kinnera&show_icons=true&theme=tokyonight&hide_border=true"/>
 </p>
 
 ---
@@ -96,7 +76,7 @@ Key Features
 # 🔥 GitHub Streak
 
 <p align="center">
-<img src="https://streak-stats.demolab.com/?user=Cholan-Kinnera&theme=tokyonight"/>
+<img src="https://streak-stats.demolab.com/?user=Cholan-kinnera&theme=tokyonight&hide_border=true"/>
 </p>
 
 ---
@@ -104,7 +84,15 @@ Key Features
 # 📈 Most Used Languages
 
 <p align="center">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Cholan-Kinnera&layout=compact&theme=tokyonight"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Cholan-kinnera&layout=compact&theme=tokyonight&hide_border=true"/>
+</p>
+
+---
+
+# 🌆 Contribution Activity
+
+<p align="center">
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Cholan-kinnera&theme=tokyonight"/>
 </p>
 
 ---
@@ -112,7 +100,7 @@ Key Features
 # 🐍 Contribution Snake
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/Cholan-Kinnera/Cholan-Kinnera/output/github-contribution-grid-snake.svg"/>
+<img src="https://raw.githubusercontent.com/Cholan-kinnera/Cholan-kinnera/output/github-contribution-grid-snake.svg"/>
 </p>
 
 ---
