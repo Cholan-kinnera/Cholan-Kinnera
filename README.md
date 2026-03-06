@@ -1,47 +1,47 @@
-<!-- CLOUD + AI BANNER -->
+<!-- ELITE DEVELOPER BANNER -->
 
 <p align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,50:203A43,100:2C5364&height=220&section=header&text=Cholan%20Kinnera&fontSize=40&fontColor=ffffff&animation=fadeIn"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&height=280&color=0:0f2027,50:203a43,100:2c5364&text=Cholan%20Kinnera&fontSize=50&fontAlignY=40&animation=fadeIn&fontColor=ffffff"/>
 </p>
 
-<h3 align="center">Python Developer | Backend Developer | Cloud & AI Enthusiast</h3>
+<p align="center">
+<img src="https://readme-typing-svg.herokuapp.com?lines=Backend+Developer;Python+Engineer;Cloud+Computing+Learner;Artificial+Intelligence+Explorer&center=true&width=600&height=45">
+</p>
 
 <p align="center">
-<img src="https://readme-typing-svg.herokuapp.com?lines=Backend+Developer;Python+API+Builder;Cloud+Computing+Learner;Artificial+Intelligence+Explorer&center=true&width=520&height=45">
+<img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="450">
 </p>
 
 ---
 
-# 👨‍💻 About Me
+## 👨‍💻 About Me
 
 I am a developer passionate about building **backend systems, APIs, and cloud-based applications**.
 
-I enjoy understanding how software works behind the scenes and designing systems that are **structured, efficient, and scalable**.
+My focus is on **Python development, backend engineering, and cloud technologies**.
 
-My primary focus is on **backend development and cloud technologies**, where I work with **Python, Flask, and SQL** to build REST APIs and data-driven applications.
-
-Currently expanding my knowledge in:
+Currently expanding knowledge in:
 
 • Cloud Computing (AWS)
 • Artificial Intelligence tools
 • Backend architecture
 • Database systems
 
-I believe strongly in **learning by building**, so I constantly create projects to improve my development workflow and technical skills.
+I strongly believe in **learning by building real projects**.
 
 ---
 
-# 🧠 Current Focus
+## 🧠 Current Focus
 
 • Backend Development
 • REST API Design
-• Cloud Computing (AWS)
+• Cloud Computing
 • Artificial Intelligence
-• Database Design and SQL
+• Database Design
 
 ---
 
-# 🛠 Tech Stack
+## 🛠 Tech Stack
 
 <p align="center">
 <img src="https://skillicons.dev/icons?i=python,java,mysql,flask,aws,git,github,vscode,postman"/>
@@ -49,47 +49,46 @@ I believe strongly in **learning by building**, so I constantly create projects 
 
 ---
 
-# 🚀 Featured Project
+## 🚀 Featured Project
 
-## 🔐 Flask User Management API
+### 🔐 Flask User Management API
 
-A backend API built with **Flask** to manage users and authentication.
+Backend REST API built using **Flask** for managing users.
 
-Key Features
+Features:
 
-• User registration system
+• User registration
 • REST API endpoints
 • Database integration
 • API testing with Postman
-• Clean backend architecture
 
 ---
 
-# 📊 GitHub Stats
+## 📊 GitHub Stats
 
 <p align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=Cholan-kinnera&show_icons=true&theme=tokyonight&hide_border=true"/>
+<img src="https://github-readme-stats.vercel.app/api?username=Cholan-kinnera&show_icons=true&theme=tokyonight&hide_border=true&cache_seconds=1800"/>
 </p>
 
 ---
 
-# 🔥 GitHub Streak
+## 🔥 GitHub Streak
 
 <p align="center">
-<img src="https://streak-stats.demolab.com/?user=Cholan-kinnera&theme=tokyonight&hide_border=true"/>
+<img src="https://streak-stats.demolab.com?user=Cholan-kinnera&theme=tokyonight&hide_border=true"/>
 </p>
 
 ---
 
-# 📈 Most Used Languages
+## 📈 Most Used Languages
 
 <p align="center">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Cholan-kinnera&layout=compact&theme=tokyonight&hide_border=true"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Cholan-kinnera&layout=compact&theme=tokyonight&hide_border=true&cache_seconds=1800"/>
 </p>
 
 ---
 
-# 🌆 Contribution Activity
+## 🌆 Contribution Skyline
 
 <p align="center">
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Cholan-kinnera&theme=tokyonight"/>
@@ -97,7 +96,7 @@ Key Features
 
 ---
 
-# 🐍 Contribution Snake
+## 🐍 Contribution Snake
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/Cholan-kinnera/Cholan-kinnera/output/github-contribution-grid-snake.svg"/>
