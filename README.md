@@ -40,5 +40,7 @@ cholan@workstation:~$ neofetch --profile
   - Claude Code, OpenAI Codex CLI, Gemini CLI, Antigravity IDE, VS Code
 - **Current Technical Initiative**:
   - **CRLabs AI**
+- **Currently Building**:
+  - Exploring backend systems, cloud infrastructure, and AI-powered applications through CRLabs AI. 
 
 
