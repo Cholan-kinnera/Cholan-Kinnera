@@ -61,7 +61,7 @@ REPOS_Q = """query($login: String!, $cursor: String) { user(login: $login) {
 HISTORY_Q = """query($owner: String!, $name: String!, $author: ID!, $cursor: String) { repository(owner: $owner, name: $name) {
   defaultBranchRef { target { ... on Commit {
     history(first: 100, after: $cursor, author: { id: $author }) {
-      totalCount pageInfo { hasNextPage endCursor } nodes { additions deletions }
+      totalCount pageInfo { hasNextPage endCursor } nodes { additions deletions parents { totalCount } }
   } } } } } }"""
 
 
@@ -76,7 +76,10 @@ def fetch_stats(login):
         cursor = page["pageInfo"]["endCursor"]
 
     owned = [r for r in repos if r["owner"]["login"].lower() == login.lower()]
-    commits = added = deleted = 0
+    # Commits: every commit by the user on each repo's default branch (merges included), as before.
+    # Lines: gross additions from non-merge commits only. A merge's diff repeats changes that are
+    # already counted in the branch commits it brings in, so counting it again would inflate the totals.
+    commits = added = 0
     for r in repos:
         if not r["defaultBranchRef"]:
             continue  # empty repo
@@ -84,8 +87,7 @@ def fetch_stats(login):
         while True:
             hist = gql(HISTORY_Q, owner=r["owner"]["login"], name=r["name"], author=user["id"], cursor=cursor)
             hist = hist["repository"]["defaultBranchRef"]["target"]["history"]
-            added += sum(c["additions"] for c in hist["nodes"])
-            deleted += sum(c["deletions"] for c in hist["nodes"])
+            added += sum(c["additions"] for c in hist["nodes"] if c["parents"]["totalCount"] <= 1)
             if not hist["pageInfo"]["hasNextPage"]:
                 commits += hist["totalCount"]
                 break
@@ -97,9 +99,7 @@ def fetch_stats(login):
         "star_data": sum(r["stargazerCount"] for r in owned),
         "commit_data": commits,
         "follower_data": user["followers"]["totalCount"],
-        "loc_data": added - deleted,
         "loc_add": added,
-        "loc_del": deleted,
     }
 
 
@@ -305,9 +305,8 @@ INFO = [
      (None, "} | ", None), ("key", "Stars", None), (None, ":", None), *field("star_data", "0", 24)],
     [("cc", ". ", None), ("key", "Commits", None), (None, ":", None), *field("commit_data", "0", 21),
      (None, " | ", None), ("key", "Followers", None), (None, ":", None), *field("follower_data", "0", 22)],
-    [("cc", ". ", None), ("key", "Lines of Code", None), (None, ":", None), *field("loc_data", "0", 18),
-     (None, " ( ", None), *field("loc_add", "0", 11, "add"), ("add", "++", None),
-     (None, ", ", None), *field("loc_del", "0", 10, "dele"), ("dele", "--", None), (None, " )", None)],
+    [("cc", ". ", None), ("key", "Lines Added", None), (None, ":", None), *field("loc_add", "0", W - 16, "add"),
+     ("add", "++", None)],
 ]
 
 
@@ -359,7 +358,7 @@ text, tspan {{white-space: pre;}}
 def test():
     assert dots(0) == "" and dots(2) == "  " and dots(5) == " ... "
     assert len(INFO) == 27, f"len(INFO) = {len(INFO)} != 27"
-    required_ids = {"repo_data", "contrib_data", "star_data", "commit_data", "follower_data", "loc_data", "loc_add", "loc_del"}
+    required_ids = {"repo_data", "contrib_data", "star_data", "commit_data", "follower_data", "loc_add"}
     found_ids = set()
     for i, row in enumerate(INFO):
         if row is None:

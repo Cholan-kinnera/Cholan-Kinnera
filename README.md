@@ -3,7 +3,8 @@
   - The portrait is truecolour ASCII: every cell's glyph is fitted to the photo, and flat areas spell my name.
     Rebuild locally (needs Pillow + numpy) with:  python3 today.py --build path/to/photo.png
   - .github/workflows/update_activity.yml runs `python3 today.py` daily (stdlib only). It refreshes
-    repos, stars, commits, followers and lines of code via the GitHub GraphQL API (secret: ACCESS_TOKEN).
+    repos, stars, commits, followers and lines added via the GitHub GraphQL API (secret: ACCESS_TOKEN).
+    Lines added is a gross total from non-merge commits on each repo's default branch.
   - Self-check:  python3 today.py --test
 -->
 <a href="https://github.com/Cholan-kinnera">
@@ -20,6 +21,8 @@
 </p>
 
 ---
+
+**Currently building** at CRLabs AI.
 
 ### Technical Overview
 
